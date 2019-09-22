@@ -93,7 +93,7 @@
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("console.log(\"test\");\n\n//# sourceURL=webpack:///./src/index.js?");
+eval("var a = \"test code after remove babel-preset-env\";\nconsole.log(a);\n\nvar my = function my() {\n  var name = \"sj\";\n  console.log(\"my name is \".concat(name));\n};\n\nmy();\n\n//# sourceURL=webpack:///./src/index.js?");
 
 /***/ })
 
